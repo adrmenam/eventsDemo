@@ -4,7 +4,7 @@ var express = require("express");
 var app=express();
 
 app.get('/', function(req,res){
-    res.sendFile(_dirname+'/pages/'+'index.html');
+    res.sendFile(__dirname+'/pages/'+'index.html');
 });
 
 // var MongoClient = mongo.MongoClient;
