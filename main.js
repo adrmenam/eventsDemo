@@ -8,7 +8,7 @@ var app=express();
 // });
 
 var MongoClient = mongo.MongoClient;
-var url = "mongodb://heroku_vx5jwk4x:prrr3oev31bmj22j7fspkv9bbu@ds259001.mlab.com:59001/mongodb://heroku_vx5jwk4x:prrr3oev31bmj22j7fspkv9bbu@ds259001.mlab.com:59001/heroku_vx5jwk4x";
+var url = "mongodb://heroku_vx5jwk4x:prrr3oev31bmj22j7fspkv9bbu@ds259001.mlab.com:59001/heroku_vx5jwk4x";
 
 //ENCONTRAR POR CODIGO DE CLIENTE
 app.get('/client/:cod',function(req,res){
