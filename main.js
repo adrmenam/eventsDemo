@@ -3,9 +3,9 @@ var mongo=require('mongodb');
 var bodyParser = require("body-parser");
 var app=express();
 
-// app.get('/', function(req,res){
-//     res.sendFile(__dirname+'/pages/'+'index.html');
-// });
+app.get('/', function(req,res){
+    res.sendFile(__dirname+'/pages/'+'index.html');
+});
 
 var MongoClient = mongo.MongoClient;
 var url = "mongodb://heroku_vx5jwk4x:prrr3oev31bmj22j7fspkv9bbu@ds259001.mlab.com:59001/heroku_vx5jwk4x";
